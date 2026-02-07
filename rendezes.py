@@ -200,7 +200,7 @@ def export_posts_to_json(posts_list, filename):
 
 
 if __name__ == "__main__":
-    url = "./facebook/snapshots2"
+    url = "./facebook/snapshots_ov"
 
     lrp = UniqueStack(maxlen=20)  # last read posts
     allposts = []
@@ -227,4 +227,4 @@ if __name__ == "__main__":
     unique_dicts = unique(allposts)
     print("Egyedi posztok száma:", len(unique_dicts))
 
-    export_posts_to_json(unique_dicts, "posztok_exp_2.json")
+    export_posts_to_json(unique_dicts, "posztok_exp_ov.json")

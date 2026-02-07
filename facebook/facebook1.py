@@ -3,7 +3,7 @@ import time
 import os
 import random
 
-EXPORT_DIR = "snapshots_ov"
+EXPORT_DIR = "snapshots_fidesz"
 os.makedirs(EXPORT_DIR, exist_ok=True)
 
 snapshot_index = 0
